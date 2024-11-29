@@ -1,0 +1,17 @@
+Librewolf:
+
+##add the repo
+curl -fsSL https://repo.librewolf.net/librewolf.repo | pkexec tee /etc/yum.repos.d/librewolf.repo
+
+##install the package
+sudo dnf install librewolf
+
+##or on atomic desktops
+rpm-ostree install librewolf
+
+################
+Kando: The Cross Platform Pie Menu
+https://github.com/kando-menu/kando
+################
+Vesktop: Discord on Linux But Not Shit
+https://github.com/Vencord/Vesktop
