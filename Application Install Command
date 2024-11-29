@@ -1,0 +1,1 @@
+sudo dnf install mpv yt-dlp docker distrobox && flatpak install org.prismlauncher.PrismLauncher org.kde.kolourpaint io.github.seadve.Mousai eu.betterbird.Betterbird com.usebottles.bottles com.github.vikdevelop.timer
