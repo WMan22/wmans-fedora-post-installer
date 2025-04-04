@@ -23,3 +23,11 @@ pulse.min.quantum = 1024/48000
 ############# 4: Reboot
 
 ######## Hope this helps someone down the road! 
+
+
+
+
+
+##possible command-line fix
+
+pw-metadata -n settings 0 clock.force-rate 48000 && pw-metadata -n settings 0 clock.force-quantum 500
